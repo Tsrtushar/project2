@@ -1,0 +1,304 @@
+.login-layout{
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  
+}
+
+.med-layout{
+margin: 5px;
+padding: 5px;
+margin-top: 10px !important;
+
+}
+
+
+
+.card{
+  border-radius: 1.25rem !important;
+  margin: 5px;
+}
+
+.first-card{
+top: 20px !important;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 1.25rem;
+  margin: 5px;
+}
+
+.home-layout{
+/* margin: 5px;
+  padding: 5px; */
+  
+  background-image: url("./yoga.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: luminosity;
+}
+
+.heading1{
+  text-align: center;
+  margin-top: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  
+}
+
+.rowstyle{
+  margin: 10px;
+}
+
+.chatbot{
+margin-top: 10px;
+
+
+}
+
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.brainIcon{
+  height: 20px;
+  width: 20px;
+}
+
+/* blog page chips*/
+
+.bg-img{
+background-image: url(./blog.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.blog-heading{
+color: #111;
+
+}
+
+.blog-box{
+height: 200px;
+width: 100%;
+background-color: #faf2f2 ;
+overflow: auto;
+color: #111;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.chip {
+display: inline-block;
+padding: 0 25px;
+height: 50px;
+font-size: 16px;
+line-height: 50px;
+border-radius: 25px;
+background-color:#f1f1f1;
+margin-left: 10px;
+margin-bottom: 20px;
+}
+
+.chip img {
+float: left;
+margin: 0 10px 0 -25px;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+
+/*blog page box*/
+
+.box{
+height: 100px;
+width: 70%;
+background-color: bisque;
+margin-left: 40px;
+overflow: auto;
+border-radius: 5%;
+}
+
+.blogText{
+padding: 5px;
+}
+
+/* home page with dynamic bg */
+
+.sub-head{
+
+text-align: center;
+margin-top: 100px;
+}
+.layout {
+padding:0;
+margin:0;
+overflow:hidden;
+height: 600px;
+}
+canvas {
+padding:0;
+margin:0;
+}
+div.btnbg {
+position:fixed;
+left:0;
+top:0;
+height: 100%;
+width: 100%;
+}
+
+/*meditation.html */
+
+
+@keyframes move_wave {
+0% {
+    transform: translateX(0) translateZ(0) scaleY(1)
+}
+50% {
+    transform: translateX(-25%) translateZ(0) scaleY(0.55)
+}
+100% {
+    transform: translateX(-50%) translateZ(0) scaleY(1)
+}
+}
+.waveWrapper {
+overflow: hidden;
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+margin: auto;
+}
+.waveWrapperInner {
+position: absolute;
+width: 100%;
+overflow: hidden;
+height: 100%;
+bottom: -1px;
+background-image: linear-gradient(to top, #86377b 20%, #27273c 80%);
+}
+
+.waveWrapperInnerpodcast{
+position: absolute;
+width: 100%;
+overflow: hidden;
+height: 100%;
+bottom: -1px;
+background-image: linear-gradient(to top, #b80d57 20%, #27273c 80%);
+}
+
+
+.bgTop {
+z-index: 15;
+opacity: 0.5;
+}
+.bgMiddle {
+z-index: 10;
+opacity: 0.75;
+}
+.bgBottom {
+z-index: 5;
+}
+.wave {
+position: absolute;
+left: 0;
+width: 200%;
+height: 100%;
+background-repeat: repeat no-repeat;
+background-position: 0 bottom;
+transform-origin: center bottom;
+}
+.waveTop {
+background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+animation: move-wave 3s;
+-webkit-animation: move-wave 3s;
+-webkit-animation-delay: 1s;
+animation-delay: 1s;
+}
+.waveMiddle {
+background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+background-size: 50% 100px;
+}
+.waveAnimation .waveBottom {
+animation: move_wave 15s linear infinite;
+}
+
+.play{
+background-color: #f8f3eb !important;
+color: #111 !important;
+border-color: #111 !important;
+border-radius: 1rem !important;
+}
+
+.pause{
+
+background-color: #ffbcbc !important;
+color: #111 !important;
+border-color: #111 !important;
+border-radius: 1rem !important;
+}
+
