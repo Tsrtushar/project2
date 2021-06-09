@@ -1,58 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Test</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/b22f5d2f58.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    </head>
-    <body style="background-image:url(wall1.jpg);height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b22f5d2f58.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body
+    style="
+      background-color: #f4e7d7;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    <a href="./home.html">Home</a>
+    <a href="#">Test</a>
+    <a href="./breathe.html">Breathe</a>
+    <a href="./blog.html">Blogs</a>
+    <a href="./Meditation.html">Meditation</a>
+    <a href="./podcast.html">Podcast</a>
+    <a href="./help.html">Help</a>
+    <a href="./feedback.html">Feedback</a>
+  </div>
 
-    <div class="container-fluid login-layout ">
+    <div class="container-fluid login-layout">
+      
+      <span onclick="openNav()"><i class="fas fa-brain fa-2x"></i></span>
 
-        <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="./home.html">Home</a>
-        <a href="#">Test</a>
-        <a href="./blog.html">Blogs</a>
-        <a href="./Meditation.html">Meditation</a>
-        <a href="./podcast.html">Podcast</a>
-        <a href="./help.html">Help</a>
-        <a href="./feedback.html">Feedback</a>
+      <div style="text-align: center; font-weight: bold;">
+        <h1>DASS TEST</h1>
+      </div>
+      <div style="text-align: center; ">
+        <p>(Depression Anxiety Stress Scale test)</p>
+      </div>
+
+      
+    </div>
+    <div
+        class="content"
+        style="
+          background-color: rgb(0, 0, 0);
+          background-color: rgba(0, 0, 0, 0.4);
+          color: white;
+          border: 3px solid #f1f1f1;
+          width: 90%;
+          padding: 12px;
+          text-align: center;
+        "
+      >
+        <div style="padding-left: 10px; padding-top: 20px; text-align: justify">
+          Please read each statement and circle a number 0, 1, 2 or 3 which
+          indicates how much the statement applied to you over the past week.
+          There are no right or wrong answers. Do not spend too much time on any
+          statement.<br />
+          <br />
+          The rating scale is as follows:<br />
+          0 Did not apply to me at all<br />
+          1 Applied to me to some degree, or some of the time<br />
+          2 Applied to me to a considerable degree or a good part of time<br />
+          3 Applied to me very much or most of the time<br /><br />
         </div>
 
-     <span onclick="openNav()"><i class="fas fa-brain fa-2x"></i></span> 
-        
-
-            <div style="text-align: center; padding-right: 20px;"><h1>DASS TEST</h1></div>
-            <div style="text-align: center; padding-right: 20px;"><h1>(Depression Anxiety Stress Scale test)</h1></div>
-            <div style="padding-left: 10px; padding-top: 20px; text-align: justify; ">Please read each statement and circle a number 0, 1, 2 or 3 which indicates how much the statement
-                applied to you over the past week. There are no right or wrong answers. Do not spend too much
-                time on any statement.<br>
-                <br>
-                The rating scale is as follows:<br>
-                0 Did not apply to me at all<br>
-                1 Applied to me to some degree, or some of the time<br>
-                2 Applied to me to a considerable degree or a good part of time<br>
-                3 Applied to me very much or most of the time<br><br>
-                </div>
-
-              <form action="./testques.html" method="GET">
-                <div style="padding-left: 10px;">
-                <input  type="submit" class="btn btn-primary pause" value="Start">
-            </div>
-              </form>     
-
-    </div>
-        <script src="./script.js"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+        <form action="./testques.html" method="GET">
+          <div style="padding-left: 10px">
+            <input type="submit" class="btn btn-primary pause" value="Start" />
+          </div>
+        </form>
+      </div>
+    <script src="./script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
